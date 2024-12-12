@@ -4,7 +4,7 @@ pipeline {
         jdk 'JDK17'
     }
     environment {
-        JAVA_HOME = 'C/Program Files/Java/jdk-17'
+        JAVA_HOME = 'C:/Program Files/Java/jdk-17'
     }
     stages {
         stage('Initialize') {
